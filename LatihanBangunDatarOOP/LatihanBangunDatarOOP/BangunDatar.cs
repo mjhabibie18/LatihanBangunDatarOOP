@@ -15,7 +15,9 @@ namespace LatihanBangunDatarOOP
             get { return hitung; }
             set { hitung = value; }
         }
+
         public abstract double hitungLuas();
+
         public abstract double hitungKeliling();
     }
 }
