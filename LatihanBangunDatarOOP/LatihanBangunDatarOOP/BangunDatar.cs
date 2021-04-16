@@ -8,7 +8,7 @@ namespace LatihanBangunDatarOOP
 {
     abstract class BangunDatar
     {
-        public double hitung;
+        private double hitung;
 
         public double Menghitung
         {

@@ -27,15 +27,16 @@ namespace LatihanBangunDatarOOP
             get { return NilaiTinggi; }
             set { NilaiTinggi = value; }
         }
+        
         public override double hitungLuas()
         {
-            hitung = (NilaiAlas * NilaiTinggi) / 2;
-            return hitung;
+            Menghitung = (NilaiAlas * NilaiTinggi) / 2;
+            return Menghitung;
         }
         public override double hitungKeliling()
         {
-            hitung = NilaiAlas + NilaiTinggi + NilaiSisi;
-            return hitung;
+            Menghitung = NilaiAlas + NilaiTinggi + NilaiSisi;
+            return Menghitung;
         }
     }
 }

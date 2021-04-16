@@ -23,13 +23,13 @@ namespace LatihanBangunDatarOOP
         }
         public override double hitungLuas()
         {
-            hitung = NilaiPanjang * NilaiLebar;
-            return hitung;
+            Menghitung = NilaiPanjang * NilaiLebar;
+            return Menghitung;
         }
         public override double hitungKeliling()
         {
-            hitung = (NilaiPanjang + NilaiLebar) * 2;
-            return hitung;
+            Menghitung = (NilaiPanjang + NilaiLebar) * 2;
+            return Menghitung;
         }
     }
 }

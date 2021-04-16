@@ -30,13 +30,13 @@ namespace LatihanBangunDatarOOP
         }
         public override double hitungLuas()
         {
-            hitung = NilaiAlas * NilaiTinggi;
-            return hitung;
+            Menghitung = NilaiAlas * NilaiTinggi;
+            return Menghitung;
         }
         public override double hitungKeliling()
         {
-            hitung = 2 * (NilaiAlas + NilaiSisiMiring);
-            return hitung;
+            Menghitung = 2 * (NilaiAlas + NilaiSisiMiring);
+            return Menghitung;
         }
     }
 }
